@@ -1,0 +1,92 @@
+{
+  "assignments": [
+    {
+      "product": "P-100",
+      "op": "fill",
+      "resource": "Fill-2",
+      "start": "2025-11-03T08:35:00",
+      "end": "2025-11-03T09:05:00"
+    },
+    {
+      "product": "P-100",
+      "op": "label",
+      "resource": "Label-1",
+      "start": "2025-11-03T09:05:00",
+      "end": "2025-11-03T09:25:00"
+    },
+    {
+      "product": "P-100",
+      "op": "pack",
+      "resource": "Pack-1",
+      "start": "2025-11-03T10:33:00",
+      "end": "2025-11-03T10:48:00"
+    },
+    {
+      "product": "P-101",
+      "op": "fill",
+      "resource": "Fill-1",
+      "start": "2025-11-03T08:30:00",
+      "end": "2025-11-03T09:05:00"
+    },
+    {
+      "product": "P-101",
+      "op": "label",
+      "resource": "Label-1",
+      "start": "2025-11-03T09:45:00",
+      "end": "2025-11-03T10:10:00"
+    },
+    {
+      "product": "P-101",
+      "op": "pack",
+      "resource": "Pack-1",
+      "start": "2025-11-03T14:04:00",
+      "end": "2025-11-03T14:19:00"
+    },
+    {
+      "product": "P-102",
+      "op": "fill",
+      "resource": "Fill-2",
+      "start": "2025-11-03T08:00:00",
+      "end": "2025-11-03T08:25:00"
+    },
+    {
+      "product": "P-102",
+      "op": "label",
+      "resource": "Label-1",
+      "start": "2025-11-03T08:25:00",
+      "end": "2025-11-03T08:45:00"
+    },
+    {
+      "product": "P-103",
+      "op": "fill",
+      "resource": "Fill-1",
+      "start": "2025-11-03T08:00:00",
+      "end": "2025-11-03T08:30:00"
+    },
+    {
+      "product": "P-103",
+      "op": "label",
+      "resource": "Label-1",
+      "start": "2025-11-03T09:25:00",
+      "end": "2025-11-03T09:45:00"
+    },
+    {
+      "product": "P-103",
+      "op": "pack",
+      "resource": "Pack-1",
+      "start": "2025-11-03T12:17:00",
+      "end": "2025-11-03T12:32:00"
+    }
+  ],
+  "kpis": {
+    "tardiness_minutes": 0,
+    "changeovers": 2,
+    "makespan_minutes": 379,
+    "utilization": {
+      "Fill-1": 14,
+      "Fill-2": 11,
+      "Label-1": 17,
+      "Pack-1": 9
+    }
+  }
+}

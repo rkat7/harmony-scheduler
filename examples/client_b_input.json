@@ -1,0 +1,75 @@
+{
+  "client_id": "client_b",
+  "shift_window": "11/03/2025 08:00 - 16:00",
+  "machines": [
+    "Fill-1",
+    "Fill-2",
+    "Label-1",
+    "Pack-1"
+  ],
+  "machine_breaks": [
+    {
+      "machine": "Fill-1",
+      "start": "12:00",
+      "end": "12:30"
+    }
+  ],
+  "setup_times": [
+    {
+      "from_family": "standard",
+      "to_family": "premium",
+      "minutes": 20
+    },
+    {
+      "from_family": "premium",
+      "to_family": "standard",
+      "minutes": 20
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-100",
+      "product_family": "standard",
+      "deadline_hour": 12.5,
+      "operations": [
+        {
+          "step": 1,
+          "type": "fill",
+          "minutes": 30
+        },
+        {
+          "step": 2,
+          "type": "label",
+          "minutes": 20
+        },
+        {
+          "step": 3,
+          "type": "pack",
+          "minutes": 15
+        }
+      ]
+    },
+    {
+      "order_id": "ORD-101",
+      "product_family": "premium",
+      "deadline_hour": 15.0,
+      "operations": [
+        {
+          "step": 1,
+          "type": "fill",
+          "minutes": 35
+        },
+        {
+          "step": 2,
+          "type": "label",
+          "minutes": 25
+        },
+        {
+          "step": 3,
+          "type": "pack",
+          "minutes": 15
+        }
+      ]
+    }
+  ]
+}
