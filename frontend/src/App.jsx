@@ -79,6 +79,26 @@ function App() {
           <div className="grid">
             <GanttChart assignments={schedule.assignments} />
             <ScheduleResults assignments={schedule.assignments} />
+
+            <div className="card">
+              <h2 className="card-title">
+                Output JSON
+                <span style={{fontSize: '0.9rem', fontWeight: 'normal', color: '#666', marginLeft: '1rem'}}>
+                  ({schedule.assignments.length} assignments received)
+                </span>
+              </h2>
+              <pre style={{
+                background: '#f7fafc',
+                padding: '1rem',
+                borderRadius: '0.5rem',
+                overflow: 'auto',
+                maxHeight: '400px',
+                fontSize: '0.75rem',
+                lineHeight: '1.5'
+              }}>
+                {JSON.stringify(schedule, null, 2)}
+              </pre>
+            </div>
           </div>
         )}
       </div>
